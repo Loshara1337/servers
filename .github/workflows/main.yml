@@ -1,0 +1,38 @@
+name: Update Clash Config
+
+on:
+  push:
+    paths:
+      - 'links.txt'  # Триггер только при изменении файла ссылок
+  workflow_dispatch: # Возможность запустить кнопку вручную
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Разрешаем боту пушить изменения
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install PyYAML
+
+      - name: Run parser script
+        run: python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add config.yaml
+          # Если изменений нет, не фейлить
+          git commit -m "Auto-update config.yaml [skip ci]" || exit 0
+          git push
