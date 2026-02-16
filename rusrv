@@ -1,8 +1,163 @@
-vless://54a41073-e798-488b-af16-28533e612ec1@wa.sfasti.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&headerType=none#Telegram%3A%40config_proxy%20%F0%9F%94%A5
-vless://4d77a5d2-51ed-4494-b38a-87f340591db6@se.pink-service.ru:11443?encryption=none&security=reality&sni=www.google.com&fp=chrome&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sid=86b80f1e713a33ad&type=grpc#%E2%9A%99%EF%B8%8F29%40oneclickvpnkeys
-vless://30c04389-bbcb-431f-9d47-a8ad24406bd4@31.13.208.89:443?encryption=none&security=reality&sni=ads.x5.ru&fp=chrome&pbk=OBR2JYROQB8odK5glVW_KLnsWl3UZ-voyGq_9ihQgTI&sid=d49d578f280fd83a&type=grpc&authority=&serviceName=xyz&mode=gun#%F0%9F%85%BF%EF%B8%8F74%40oneclickvpnkeys
-vless://ccedb1b1-35f3-46d1-a85a-c699eef5f3e1@5.254.85.152:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=germany.scroogethebest.com&fp=chrome&pbk=AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc&sid=4fa44664f6a566d3&type=tcp&headerType=none#Telegram%3A%40config_proxy%20%F0%9F%92%A6
-vless://192f7c25-0c3a-4089-a67b-5138c5d5d561@144.31.139.71:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de.gagtubelol.com&fp=chrome&pbk=o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU&sid=f1a3d4b6de93aa3a&type=tcp&headerType=none#%E2%9A%99%EF%B8%8F2%40oneclickvpnkeys
-vless://ccedb1b1-35f3-46d1-a85a-c699eef5f3e1@fran.scroogethebest.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fran.scroogethebest.com&fp=chrome&pbk=AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc&sid=4fa44664f6a566d3&spx=%2F&type=tcp&headerType=none#%40SPEEDS_VPN1-%F0%9F%AB%86
-vless://4d77a5d2-51ed-4494-b38a-87f340591db6@che.pink-service.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.google.com&fp=chrome&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sid=86b80f1e713a33ad&type=tcp&headerType=none#Telegram%3A%40config_proxy%20%F0%9F%94%A5
-vless://1ca56379-e44b-4694-bee8-9874ca8fd248@45.132.96.60:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yimg.com&fp=chrome&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw&type=tcp&headerType=none#%40v2rays_ha%209101
+proxies:
+  - name: "Telegram:@config_proxy 🔥"
+    type: "vless"
+    server: wa.sfasti.ru
+    port: 443
+    uuid: "54a41073-e798-488b-af16-28533e612ec1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "wa.sfasti.ru"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8"
+      short-id: "16895459a2c7768d"
+    tcp-opts:
+      header:
+        type: "none"
+
+  - name: "⚙29@oneclickvpnkeys"
+    type: "vless"
+    server: se.pink-service.ru
+    port: 11443
+    uuid: "4d77a5d2-51ed-4494-b38a-87f340591db6"
+    network: "grpc"
+    servername: "www.google.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0"
+      short-id: "86b80f1e713a33ad"
+
+  - name: "🅿74@oneclickvpnkeys"
+    type: "vless"
+    server: 31.13.208.89
+    port: 443
+    uuid: "30c04389-bbcb-431f-9d47-a8ad24406bd4"
+    network: "grpc"
+    servername: "ads.x5.ru"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "OBR2JYROQB8odK5glVW_KLnsWl3UZ-voyGq_9ihQgTI"
+      short-id: "d49d578f280fd83a"
+    grpc-opts:
+      grpc-service-name: "xyz"
+      mode: "gun"
+
+  - name: "Telegram:@config_proxy 💦"
+    type: "vless"
+    server: 5.254.85.152
+    port: 443
+    uuid: "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "germany.scroogethebest.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc"
+      short-id: "4fa44664f6a566d3"
+    tcp-opts:
+      header:
+        type: "none"
+
+  - name: "⚙2@oneclickvpnkeys"
+    type: "vless"
+    server: 144.31.139.71
+    port: 443
+    uuid: "192f7c25-0c3a-4089-a67b-5138c5d5d561"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "de.gagtubelol.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "o29JCvEwwDcIW6ZQu06m6Vyxko6pXaNjzNd-jGcwABU"
+      short-id: "f1a3d4b6de93aa3a"
+    tcp-opts:
+      header:
+        type: "none"
+
+  - name: "@SPEEDS_VPN1-🫆"
+    type: "vless"
+    server: fran.scroogethebest.com
+    port: 443
+    uuid: "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "fran.scroogethebest.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc"
+      short-id: "4fa44664f6a566d3"
+      spiderx: "/"
+    tcp-opts:
+      header:
+        type: "none"
+
+  - name: "Telegram:@config_proxy 🔥_1"
+    type: "vless"
+    server: che.pink-service.ru
+    port: 443
+    uuid: "4d77a5d2-51ed-4494-b38a-87f340591db6"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "www.google.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0"
+      short-id: "86b80f1e713a33ad"
+    tcp-opts:
+      header:
+        type: "none"
+
+  - name: "@v2rays_ha 9101"
+    type: "vless"
+    server: 45.132.96.60
+    port: 443
+    uuid: "1ca56379-e44b-4694-bee8-9874ca8fd248"
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    servername: "yimg.com"
+    client-fingerprint: "chrome"
+    encryption: "none"
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw"
+    tcp-opts:
+      header:
+        type: "none"
+
+proxy-groups:
+  - name: auto
+    type: select
+    proxies:
+    - "Telegram:@config_proxy 🔥"
+    - "⚙29@oneclickvpnkeys"
+    - "🅿74@oneclickvpnkeys"
+    - "Telegram:@config_proxy 💦"
+    - "⚙2@oneclickvpnkeys"
+    - "@SPEEDS_VPN1-🫆"
+    - "@v2rays_ha 9101"
+    - "Telegram:@config_proxy 🔥_1"
+
+rules:
+  - MATCH,auto
