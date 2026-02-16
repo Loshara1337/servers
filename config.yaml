@@ -10170,7 +10170,7 @@ proxies:
   reality-opts:
     public-key: 3iQ5QX52pIjouDXoPSfrQRvpqaOTqG26IJLctU7McAY
     short-id: '02'
-- name: '@vpnbaz 🫧'
+- name: '@vpnbaz '
   type: vless
   server: tes1.api-tel.xyz
   port: 50855
@@ -10234,7 +10234,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 3iQ5QX52pIjouDXoPSfrQRvpqaOTqG26IJLctU7McAY
-    short-id: 02@Freeneetir 🫧
+    short-id: 02@Freeneetir 
 - name: telegram ☂️ dailyv2ry_1
   type: vless
   server: 37.139.32.234
@@ -13207,7 +13207,7 @@ proxies:
   reality-opts:
     public-key: jHheKC9Sq9ma4qmDE6nT0Sin4256U9BTuCbdi_WTiys
     short-id: 820988f321c21e98
-- name: '@vpnbaz 🫧_1'
+- name: '@vpnbaz _1'
   type: vless
   server: 77.83.245.188
   port: 34574
@@ -13258,7 +13258,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: jHheKC9Sq9ma4qmDE6nT0Sin4256U9BTuCbdi_WTiys
-    short-id: 820988f321c21e98@Freeneetir 🫧
+    short-id: 820988f321c21e98@Freeneetir 
 - name: ⚙️34@oneclickvpnkeys
   type: vless
   server: 185.96.163.15
@@ -21700,7 +21700,7 @@ proxy-groups:
   - IR-MCI
   - 🇩🇪 TCP-Reality | @Express_alaki | src @v2nodes
   - 🇩🇪[openproxylist.com] vless-DE
-  - '@vpnbaz 🫧'
+  - '@vpnbaz '
   - Config 1 - @lebertad_1
   - telegram @mtmvpn_1_1
   - 🌐 ConfigV2RayNG
@@ -21920,7 +21920,7 @@ proxy-groups:
   - IR-@V2rayAlpha--32
   - '@meliproxyy_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1'
   - shankamil_1_1_1_1
-  - '@vpnbaz 🫧_1'
+  - '@vpnbaz _1'
   - telegram @mtmvpn_1_1_1
   - 🖤@KIA_NET🖤 [ [TUR]
   - 77.83.245.188
@@ -23225,7 +23225,7 @@ proxy-groups:
   - IR-MCI
   - 🇩🇪 TCP-Reality | @Express_alaki | src @v2nodes
   - 🇩🇪[openproxylist.com] vless-DE
-  - '@vpnbaz 🫧'
+  - '@vpnbaz '
   - Config 1 - @lebertad_1
   - telegram @mtmvpn_1_1
   - 🌐 ConfigV2RayNG
@@ -23445,7 +23445,7 @@ proxy-groups:
   - IR-@V2rayAlpha--32
   - '@meliproxyy_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1'
   - shankamil_1_1_1_1
-  - '@vpnbaz 🫧_1'
+  - '@vpnbaz _1'
   - telegram @mtmvpn_1_1_1
   - 🖤@KIA_NET🖤 [ [TUR]
   - 77.83.245.188
